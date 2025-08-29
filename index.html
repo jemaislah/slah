@@ -51,42 +51,48 @@
     <div class="grid sm:grid-cols-3 gap-3">
       <div class="bg-white rounded-2xl p-5 shadow-sm text-center">
         <p class="text-sm text-slate-500">مشتركو يوتيوب</p>
-        <p id="yt-subs" class="text-2xl font-extrabold mt-1">—</p>
+        <p id="yt-subs" class="text-2xl font-extrabold mt-1">+15,000</p>
       </div>
       <div class="bg-white rounded-2xl p-5 shadow-sm text-center">
         <p class="text-sm text-slate-500">إجمالي مشاهدات القناة</p>
         <p id="yt-total-views" class="text-2xl font-extrabold mt-1">8,812,098</p>
       </div>
       <div class="bg-white rounded-2xl p-5 shadow-sm text-center">
-        <p class="text-sm text-slate-500">إجمالي مشاهدات أهم فيديو</p>
+        <p class="text-sm text-slate-500">من الفيديوات الاكثر مشاهدة في القناة</p>
         <p class="text-2xl font-extrabold mt-1">7,842,075</p>
       </div>
     </div>
   </section>
 
-  <!-- Featured Video -->
+  <!-- Videos List -->
   <main class="mx-auto container-narrow px-4 py-10">
-    <h2 class="text-xl font-bold mb-4">أهم فيديو</h2>
-    <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100">
-      <iframe class="w-full h-64 sm:h-96" src="https://www.youtube.com/embed/video-id-here" title="لما تتزوج تونسية لازمك مترجم" frameborder="0" allowfullscreen></iframe>
-      <div class="p-5">
-        <h3 class="font-semibold text-lg">لما تتزوج تونسية لازمك مترجم</h3>
-        <p class="text-sm text-slate-500">إجمالي المشاهدات: 7,842,075</p>
-        <p class="text-sm mt-2">جغرافياً، أكثر المشاهدات كانت من الجزائر، تونس، مصر، السعودية والمغرب، مع متوسط مدة مشاهدة 31 ثانية لكل شخص.</p>
-      </div>
-    </div>
-  </main>
+    <h2 class="text-xl font-bold mb-4">روابط بعض الفيديوهات</h2>
 
-  <footer class="border-t bg-white">
-    <div class="mx-auto container-narrow px-4 py-8 text-sm text-slate-500 flex flex-col sm:flex-row gap-2 sm:items-center sm:justify-between">
-      <p>© <span id="year"></span> صلاح الجميعي. جميع الحقوق محفوظة.</p>
-    </div>
-  </footer>
+    <div class="grid gap-6 sm:grid-cols-2">
+      <!-- Video Card 1 -->
+      <article class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100">
+        <img alt="رحلة لانا إلى تونس" class="w-full h-48 object-cover" src="https://img.youtube.com/vi/swLJqr7sOpQ/hqdefault.jpg"/>
+        <div class="p-5 space-y-3">
+          <h3 class="font-semibold">رحلة الصحفية و المذيعة اللبنانية لانا إلى #تونس #لبنان</h3>
+          <p class="text-sm text-slate-500">63,075 views</p>
+          <p class="text-sm leading-relaxed">شاهد الصحفية و#المذيعة_اللبنانية لانا، في مغامرتها المدهشة لاستكشاف جمال تونس! 🇹🇳 من شوارع تونس العاصمة إلى الأسواق التقليدية والشواطئ الساحرة، شاهدوا كيف عاشت لانا هذه التجربة الفريدة وأبرز اللحظات التي وثّقتها خلال رحلتها. في هذا الفيديو: تجربة لانا في الثقافة التونسية • جولة في أجمل الأماكن السياحية في تونس • لحظات مميزة من التقاليد والعادات التونسية. ✨ هذا الفيديو لكل عشاق السفر والاستكشاف، ولمحبي التعرف على تونس الخلابة بعيون الإعلاميين العرب. 📺 شاهد الآن واستمتع بجولة تجمع بين الجمال، الثقافة، والضيافة التونسية الأصيلة!</p>
+          <a class="inline-flex items-center justify-center px-4 py-2 rounded-xl bg-sky-600 hover:bg-sky-700 text-white" href="https://www.youtube.com/watch?v=swLJqr7sOpQ" target="_blank" rel="noopener">مشاهدة على يوتيوب</a>
+        </div>
+      </article>
 
-  <script>
-    const CHANNEL_SUBSCRIBERS = "—";
-    document.getElementById('yt-subs').textContent = CHANNEL_SUBSCRIBERS;
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
+      <!-- Video Card 2 -->
+      <article class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100">
+        <img alt="ردة فعل على الهريسة" class="w-full h-48 object-cover" src="https://img.youtube.com/vi/mmXNQAaV-JA/hqdefault.jpg"/>
+        <div class="p-5 space-y-3">
+          <h3 class="font-semibold">ردة فعل غريبة ومضحكة لسياح عرب عند تذوقهم الهريسة (الشطة) التونسية لأول مرة</h3>
+          <p class="text-sm text-slate-500">39,740 views</p>
+          <p class="text-sm leading-relaxed">شاهدوا ردة فعل غريبة ومضحكة لسياح عرب من لبنان والعراق ومصر والإمارات والأردن وليبيا عند تذوقهم الهريسة (الشطة) التونسية لأول مرة! 🇹🇳🔥 #حفاوة_الشعب_التونسي</p>
+          <a class="inline-flex items-center justify-center px-4 py-2 rounded-xl bg-sky-600 hover:bg-sky-700 text-white" href="https://www.youtube.com/watch?v=mmXNQAaV-JA&t=2s" target="_blank" rel="noopener">مشاهدة على يوتيوب</a>
+        </div>
+      </article>
+
+      <!-- Video Card 3 -->
+      <article class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100 sm:col-span-2">
+        <img alt="سياح عرب ينبهرون بالأكلات التونسية" class="w-full h-64 object-cover" src="https://img.youtube.com/vi/urnuXNRPpc0/hqdefault.jpg"/>
+        <div class="p-5 space-y-3">
+          <h
